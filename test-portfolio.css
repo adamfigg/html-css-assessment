@@ -1,0 +1,91 @@
+/*DESKTOP SETTINGS*/
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+/* Desktop Styles */
+html { 
+  background: url("http://i.imgur.com/bAbcNy6.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Archivo Black';
+  color: white;
+  font-size: 1rem !important;
+  max-height: 999999px;
+}
+
+#mobileNav {
+	display:none;
+}
+
+#topBar {
+	display: flex;
+	justify-content: space-around;
+}
+
+#topBar li {
+	padding: 2rem;
+}
+
+#portName {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 80vh;
+}
+
+nav {
+	height: 10vh;
+}
+
+footer {
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 1rem;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+/* Mobile Styles */
+@media (max-width: 500px) {
+    
+	#mobileNav {
+		display: flex;
+	}
+
+	#desktopNav {
+		display: none;
+	}
+
+	#burger {
+		margin: 1rem;
+	}
+
+	.leftnav {
+		flex: 1;
+	}
+
+	.rightnav {
+		flex: 2;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+
+	.rightnav img {
+		margin: 1rem;
+	}
+
+}
